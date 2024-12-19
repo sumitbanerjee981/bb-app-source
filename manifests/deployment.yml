@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: docker.io/sumitbanerjee981/block-buster-dev:1.0.0 
+          image: docker.io/sumitbanerjee981/block-buster-dev:1.0.0 # {"$imagepolicy": "flux-system:8-demo-image-policy-bb-app"} 
           imagePullPolicy: Always
           resources:
             requests:
